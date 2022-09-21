@@ -1,3 +1,4 @@
+<!-- Lesson Companion 1: Variable Types and Operator Expressions -->
 
 <h2>Write a single-line comment on line 1 that reads: "Hello World." </h2> 
 <h3>Answer: </h3><!-- Hello World -->
@@ -37,3 +38,71 @@
         var expenses = groceries + rent
         var profit = revenue - expenses
         var isProfitable=profit>0 || revenue>0</h3>
+
+       
+       
+       
+        <!-- Lesson Companion: Conditional Statements -->
+
+        2.    <!-- console.log 'Good Afternoon!', but only if timeOfDay is equal 'PM' -->
+        
+             <!-- Either 'AM' or 'PM': -->
+             let timeOfDay = getTimeOfDay() 
+             if(timeOfDay == "PM"){
+               console.log("Good Afternoon!")
+             }
+
+
+
+
+
+         3. <!--console.log 'Good Afternoon!' if timeOfDay is equal PM, otherwise, log 'Good Morning!' --> -->
+            let timeOfDay = getTimeOfDay() 
+             if(timeOfDay == "PM"){
+               console.log("Good Afternoon!")
+             }
+             
+             else{
+               console.log("Good Morning!")
+             }
+
+
+         4. Use switch to console.log 'Good Afternoon!' if timeOfDay is equal PM, otherwise, log 'Good Morning!'
+            let timeOfDay = getTimeOfDay() 
+            switch(timeOfDay){
+             case"PM":console.log("Good Afternoon!")
+             break;
+             case"AM" :console.log("Good Morning!")
+             break
+             }
+         
+
+             <!-- Lesson Companion 3- Storing Data with Arrays  -->
+             
+            1. Use 'let' to define an array named 'things' that contains 1, true, and 'hello.'
+        
+                let things=[1, true, 'hello'];
+
+            2. Use 'let' to define an array named 'materials' that contains 'wood', 'ore', and 'clay.'
+                    let materials=['wood', 'ore', 'clay']
+
+
+            3. Set firstMaterial equal to the first element in the materials array, secondMaterial equal to the second element in the array, and thirdMaterial equal to the third element in the array.
+
+                 let materials = [ "wood", "ore", "clay" ]
+                 let firstMaterial = materials[0]
+                 let secondMaterial = materials[1]
+                 let thirdMaterial = materials[2]
+            
+        
+             4. Add 'paper' to the materials array using .push
+                 let materials = [ "wood", "ore", "clay" ]
+                 materials.push('paper')
+
+
+             5. What will using .length on an array give us?
+             The total length of all elements within an array
+             The number of arrays we've defined
+             The number of elements within that arrayCorrect!
+             The width of the user's screen
+             
